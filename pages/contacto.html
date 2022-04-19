@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
+    <script src="https://kit.fontawesome.com/d8bbfda051.js" crossorigin="anonymous"></script>
+    <title>CONTACTO - HLL.XYZ</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar container">
+            <a href="../index.html" class="logo"><h1>HLL.XYZ</h1></a>
+            <input type="checkbox" id="toggler">
+            <label for="toggler"><i class="fa-solid fa-bars fa-xl"></i></label>
+            <div class="menu">
+              <ul class="list">
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="roles.html">ROLES</a></li>
+                <li><a href="vehiculos.html">VEHÍCULOS</a></li>
+                <li><a href="mapas.html">MAPAS</a></li>
+                <li><a href="modos.html">MODOS DE JUEGO</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <div class="grid">
+        <aside class="sidebar1"><p class="publicidad"><br><br>Publicidad 1</p></aside>
+        <main>
+            <section class="medio">
+                <article class="contenido">
+                    <br>
+                    <h2>CONTACTO</h2><br>
+                    <p>¿Quieres aportar al sitio web? Llena el formulario y nos pondremos en contacto contigo.</p><br>
+                </article>
+                <article class="contenido form">
+                    <form action="#">
+                        <fieldset width="100%">
+                        <legend>Formulario de contacto:</legend>
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre" class="datos" placeholder="Juan"><br>
+                        <br>
+                        <label for="correo">Correo electrónico:</label><br>
+                        <input type="email" id="correo" name="correo" class="datos" placeholder="juan@gmail.com"><br>
+                        <br>
+                        <label for="opciones">Selecciona la sección a la que quieres aportar:</label><br>
+                        <select name="opciones" id="opciones" class="datos">
+                            <option disabled selected value> -- Selecciona una opción -- </option>
+                            <option value="roles">Roles</option>
+                            <option value="vehiculos">Vehículos</option>
+                            <option value="mapas">Mapas</option>
+                            <option value="otros">Otros</option>
+                        </select>
+                        <br><br>
+                        <input type="checkbox" id="news" value="yes"> 
+                        <label for="news">Deseo inscribirme al Newsletter</label>
+                        <br><br>
+                        <textarea id="mensaje" name="mensaje" class="datos" rows="5">Escribe tu mensaje aquí</textarea><br>
+                        <br>
+                        <div class="cont-botones">
+                            <div class="boton-izq"><input type="reset" value="LIMPIAR" class="boton"></div>
+                            <div class="boton-der"><input type="submit" value="ENVIAR" class="boton"></div>
+                        </div>
+                        </fieldset>
+                    </form>
+                    <br><br><br>
+                </article>
+            </section>
+        </main>
+        <aside class="sidebar2"><p class="publicidad">
+            <br><br>Publicidad 2</p>
+        </aside>
+        <footer class="footer">
+            <div class="footer-izq"><p>HLL.XYZ - 2022</p></div>
+            <div class="footer-der" id="iconos">
+                <div><a href="https://store.steampowered.com/app/686810/Hell_Let_Loose/" target="_blank"><i class="fa-brands fa-steam fa-lg" id="steam"></i></a></div>
+                <div><a href="https://discord.gg/dXNMczAk" target="_blank"><i class="fa-brands fa-discord fa-lg" id="discord"></i></a></div>
+                <div><a href="https://www.youtube.com/c/HellLetLoose" target="_blank"><i class="fa-brands fa-youtube fa-lg" id="youtube"></i></a></div>
+            </div>
+        </footer>
+        </div>
+</body>
+</html>

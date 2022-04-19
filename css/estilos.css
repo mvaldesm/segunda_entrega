@@ -1,0 +1,588 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%; 
+    margin: 0 auto; 
+    padding: 10px 10px 15px 10px;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: black;
+    padding-block: 8px;
+}
+.navbar a {
+    text-decoration: none;
+    color: inherit; 
+}
+.logo {
+    margin-right: 50px;
+}
+.list {
+    list-style: none;
+    display: flex;
+
+}
+#toggler, .navbar label {
+    display: none;
+}
+
+.titulos-articulos {
+    text-align: center;
+}
+
+p {
+    text-align: justify; 
+}
+
+.p-center {
+    text-align: center;
+}
+
+.publicidad {
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+
+nav ul li {
+    padding: 10px 15px 8px 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: springgreen;
+}
+
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 300;
+}
+
+.h3-justify {
+    text-align: justify;
+    font-weight: 600;
+}
+
+.sidebar1 {
+    text-align: center;
+    grid-area: sidebar1;
+}
+
+.medio {
+    grid-area: medio;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.sidebar2 {
+    text-align: center;
+    grid-area: sidebar2;
+}
+
+.footer {
+    width: 100%;
+    height: 45px;
+    grid-area: footer;
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-izq {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 25%;
+}
+
+.footer-der {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 25%;
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.7fr 2fr 0.7fr;
+    grid-template-areas: 
+    'sidebar1 medio sidebar2'
+    'footer footer footer';
+}
+
+.contenido {
+    background-color: white;
+    width: 95%;
+    margin: 0px 0px 5px 0px;
+    text-align: justify;
+}
+
+.articulo1 {
+    height: 310px;
+}
+
+.articulo2 {
+    height: 385px;
+}
+
+.articulo3 {
+    height: 400px;
+}
+
+.articulo4 {
+    height: 385px;
+}
+
+.articulo5 {
+    height: 385px;
+}
+
+.articulo6 {
+    height: 250px;
+}
+
+.gif {
+    width: 100%;
+}
+
+#iconos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fila {
+    background-color: #2f3136;
+    width: 100%;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.columna-izquierda {
+    background-color: #2f3136;
+    width: 10%;
+    padding-left: 5px;
+}
+
+.columna-derecha {
+    width: 90%;
+    background-color: #2f3136;
+    color: white;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.img-roles {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-mapa {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-vehiculos {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form {
+    height: 473px;
+}
+
+.datos {
+    width: 91%;
+}
+
+.boton {
+    background-color: black;
+    color: white;
+    width: 80%;
+    border: 0;
+    height: 35px;
+}
+
+.cont-botones {
+    display: flex;
+    width: 100%;
+}
+
+.boton-izq {
+    width: 50%;
+}
+
+.boton-der {
+    width: 50%;
+}
+
+.boton:hover {
+    background-color: springgreen;
+    color: black;
+}
+
+#steam  {
+    color: white;
+}
+
+#steam:hover {
+    color: springgreen;
+}
+
+#discord {
+    color: white;
+}
+
+#discord:hover {
+    color: springgreen;
+}
+
+#youtube {
+    color: white;
+}
+
+#youtube:hover {
+    color: springgreen;
+}
+
+
+@media (max-width: 1110px) {
+
+.menu {
+    width: 100%;
+    max-height: 0; /*Makes the max-height 0 to side the expanded menu.*/
+    overflow: hidden; /*Hides the overflowing content.*/
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    flex-direction: column; /*Chances the direction of the flex container. By default it is a row so we change it to column in small screens.*/
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+#toggler:checked ~ .menu {
+    max-height: 100%;
+}
+
+
+nav label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+nav ul {
+    display: none;
+}
+
+.sidebar1 {
+    text-align: center;
+    grid-area: sidebar1;
+}
+
+.medio {
+    grid-area: medio;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.sidebar2 {
+    text-align: center;
+    grid-area: sidebar2;
+}
+
+.footer {
+    width: 100%;
+    height: 45px;
+    grid-area: footer;
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-izq {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 25%;
+}
+
+.footer-der {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 25%;
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.7fr 2fr 0.7fr;
+    grid-template-areas: 
+    'sidebar1 medio sidebar2'
+    'footer footer footer';
+}
+
+.contenido {
+    background-color: white;
+    width: 95%;
+    margin: 0px 0px 5px 0px;
+    text-align: justify;
+}
+
+.articulo1 {
+    height: 310px;
+}
+
+.articulo2 {
+    height: 385px;
+}
+
+.articulo3 {
+    height: 400px;
+}
+
+.articulo4 {
+    height: 385px;
+}
+
+.articulo5 {
+    height: 385px;
+}
+
+.articulo6 {
+    height: 250px;
+}
+
+.gif {
+    width: 100%;
+}
+
+#iconos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+}
+
+
+@media (max-width: 768px){
+
+.menu {
+    width: 100%;
+    max-height: 0; /*Makes the max-height 0 to side the expanded menu.*/
+    overflow: hidden; /*Hides the overflowing content.*/
+}
+
+.list {
+    flex-direction: column; /*Chances the direction of the flex container. By default it is a row so we change it to column in small screens.*/
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+#toggler:checked ~ .menu {
+    max-height: 100%;
+}
+
+nav ul {
+    display: none;
+}
+
+.sidebar1 {
+display: none;
+}
+
+.medio {
+    grid-area: medio;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar2 {
+    display: none;
+}
+
+.footer {
+    width: 100%;
+    height: 45px;
+    grid-area: footer;
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-izq {
+    font-size: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 25%;
+}
+
+.footer-der {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 25%;
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    'medio'
+    'footer';
+}
+
+.contenido {
+    background-color: white;
+    width: 95%;
+    margin: 0px 0px 5px 0px;
+    text-align: justify;
+}
+
+.articulo1 {
+    height: 310px;
+}
+
+.articulo2 {
+    height: 385px;
+}
+
+.articulo3 {
+    height: 400px;
+}
+
+.articulo4 {
+    height: 385px;
+}
+
+.articulo5 {
+    height: 385px;
+}
+
+.articulo6 {
+    height: 250px;
+}
+
+.gif {
+    width: 100%;
+}
+
+#iconos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.datos {
+    width: 91%;
+}
+
+.boton {
+    background-color: black;
+    color: white;
+    width: 80%;
+}
+
+.cont-botones {
+    display: flex;
+    width: 100%;
+}
+
+.boton-izq {
+    width: 50%;
+}
+
+.boton-der {
+    width: 50%;
+    
+}
+
+}
+
+
